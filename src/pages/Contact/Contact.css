@@ -1,0 +1,20 @@
+.contact_button {
+    background-color: var(--main-color) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    padding: 1px 12px !important;
+    line-height: 35px !important;
+    min-width: 100px !important;
+    outline: none !important;
+
+}
+
+ .section .button_container {
+    width: 100%;
+    display: flex;
+    align-items: right !important;
+    margin-top: 10px;
+    
+}
