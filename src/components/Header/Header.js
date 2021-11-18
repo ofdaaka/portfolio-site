@@ -1,23 +1,11 @@
 import React from "react";
 import {
-  Button,
-  Form,
-  FormControl,
   Nav,
   Navbar,
-  NavDropdown,
-  Container,
-  NavbarBrand,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import  {
     HomeRounded,
-  SchoolRounded,
-  WorkRounded,
-  Facebook,
-  Twitter,
-  LinkedIn,
-  GitHub,
   Telegram,
 } from "@material-ui/icons";
 import { Link, NavLink, withRouter } from "react-router-dom";

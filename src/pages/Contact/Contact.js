@@ -1,31 +1,10 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import {
-  CssBaseline,
   Grid,
-  Icon,
-  Paper,
-  Typography,
-  TextField,
-  Checkbox,
-  FormControlLabel,
-  TextareaAutosize,
-  FormGroup,
 } from "@material-ui/core";
-import {
-    Button,
-    Form,
-    FormControl,
-    Nav,
-    Navbar,
-    NavDropdown,
-    Container,
-    NavbarBrand,
-  } from "react-bootstrap";
   import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
-import resumeData from "../../utils/resumeData";
-import CustomButton from "../../components/Button/Button";
 import { Telegram } from "@material-ui/icons";
 
 const Contact = () => {

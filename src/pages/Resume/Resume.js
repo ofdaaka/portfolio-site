@@ -8,8 +8,6 @@ import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../../components/Timeline/Timeline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineConnector from "@material-ui/lab/TimelineConnector";
-import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 
@@ -23,8 +21,13 @@ const Resume = () => {
           <h6 className="section_title_text">About Me</h6>
         </Grid>
         <Grid item xs={12}>
+          <h5 className="aboutme_text ml_10">1ST ACT</h5>
           <Typography variant="body2" className="aboutme_text">
             {resumeData.about}
+          </Typography>
+          <h5 className="aboutme_text pt_45 ml_10">2ND ACT</h5>
+          <Typography variant="body2" className="aboutme_text">
+            {resumeData.aboutSecond}
           </Typography>
         </Grid>
       </Grid>
