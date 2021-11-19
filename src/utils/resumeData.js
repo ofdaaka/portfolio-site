@@ -157,7 +157,7 @@ const resumeData = {
       description: 'Created with React , and Material-UI for styling this portfolio site is completely dynamic ',
       links: [
         { link: 'https://github.com/ofdaaka/portfolio-site', icon: <GitHubIcon /> },
-        { link: 'https://www.taylormadesj.com', icon: <Language /> },
+        { link: 'http://www.odaaka.com', icon: <Language /> },
       ]
     },
     {
