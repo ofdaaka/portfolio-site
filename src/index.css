@@ -11,7 +11,7 @@ body {
    background: #fafafa; 
   /*  overflow-x: hidden; */
   overflow: auto;
- background-image: url('./assets/images/pexels-pixabay-531880.png'); 
+ background-image: url('../src/assets/images/pexels-pixabay-531880.png'); 
   
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
-import uber from '../assets/images/uber1.PNG'
-import nucamp from '../assets/images/nucamp1.PNG'
-import portShot from '../assets/images/portfolioShot.PNG'
+import uber from '../assets/images/uber1.PNG';
+import portShot from '../assets/images/portfolioShot.PNG';
+import nucamp from '../assets/images/nucamp1.PNG';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -18,9 +18,9 @@ const resumeData = {
   signature: "Only Settle For Your Dreams",
 
   about:
-    " My journey didn't start as a software engineer which im not sure many can say they do, No my journey start at a young age always wanting to create , from characters in a selfmade comic book, too poetry or even building architecture in autocad and various other avenues of creation.  As i fell deeper in love with poetry it became an escape from at times the harsh realities of my envrionment, overtime it became a love for hiphop and writing music in general. For nearly a decade I pursued a career as an artist, and that journey springboarded me to cities with opportunity and comfort zones to be broken. From Costarring in sold out musicals too Cohosting on urban media outlets, I stepped into different avenues because you'll never know unless you try.",
+    " The journey for me didn't start as a software engineer which im not sure many can say it has, No my journey started at a young age always wanting to create , from characters in a selfmade comic book, too poetry or even building architecture in autocad and various medians of creation.  As i fell deeper in love with poetry it became an escape from at times the harsh realities of my envrionment, overtime it became a love for hiphop and writing music in general. For nearly a decade I pursued a career as an artist, and that journey springboarded me to cities with opportunity and comfort zones to be broken. From Costarring in sold out musicals too Cohosting on urban media outlets, I stepped into different avenues because you'll never know success unless you try.",
   aboutSecond: 
-    "  ",
+    " For years and years I served in restaraunts and performed on stages some big some small, none more significant then the A3C perfomance which happened to be a music festival located in Atlanta, several months laters fate and I decided to move there for my music career . Looking at it now althougth the love for music landed me in the A, the per scholas opportunity changed my life by throwing me in the software engineering world. I stumbled upon the tech non-profit while searching for an alternative to Georgia Tech's pricey coding bootcamp. Through a rigorous 6 week ,8 hours a day program, I earned a scholarship to general assembly and the rest is history ",
     
   socials: {
     Linkedin: {
@@ -60,10 +60,16 @@ const resumeData = {
         "A fine dinning restaraunt that infused southern and vietnamese cuisine to create breath taking dishes. From pairing wine and cocktails to compliment the guests meal to establishing a great rapport for a continued relationship.",
     },
     {
-      title: "The Vortex ",
+      title: "The Vortex",
       date: "May 2017 - Jan 2018",
       description:
         " An experience was delivered with the aid of spirits, while providing exceptional service and amazing burgers.",
+    },
+    {
+      title: "Cubra Libre",
+      date: "May 2015 - April 2017",
+      description:
+        " Cuban restaruant that specialized in mojioto's.",
     },
   ],
 
